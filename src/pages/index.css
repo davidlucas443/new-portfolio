@@ -1,0 +1,126 @@
+
+
+
+@import url(./global.css);
+
+
+body {
+  background: #161616;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.name-header{
+
+    color: #fff;
+    font-size: 30px;
+    margin-top: 28px;
+    margin-left: 80px;
+    border: solid 2px #26a65b;
+    font-weight: auto;
+}
+nav{
+    margin-top: 28px;
+    margin-right: 40px;
+}
+
+.image-hero img {
+  width: 500px;
+  border-radius: 50%;
+}
+.links a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: lighter;
+    
+
+}
+
+.contact {
+  max-width: 800px;
+  margin: 80px auto;
+  color: #fff;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+form {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-group label {
+  color: #9c9c9c;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.input-group input,
+.input-group textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #333;
+  color: #fff;
+  padding: 8px 0;
+  font-size: 16px;
+  outline: none;
+  transition: border-color .3s;
+}
+
+.input-group textarea {
+  height: 120px;
+  border: 1px solid #333;
+  padding: 12px;
+  resize: none;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #fff;
+}
+
+.full {
+  margin-top: 20px;
+}
+
+.btn-area {
+  text-align: center;
+  margin-top: 30px;
+}
+
+button {
+  background: #26a65b;
+  border: none;
+  padding: 12px 30px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity .3s;
+}
+
+button:hover {
+  opacity: .8;
+}
