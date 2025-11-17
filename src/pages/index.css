@@ -1,6 +1,5 @@
 @import url(./global.css);
 
-
 body {
   background: #171717;
 }
@@ -13,97 +12,89 @@ header {
   margin-top: 40px;
 }
 
-.name-header a{
-
-    color: #fff;
-    font-size: 30px;
-    margin-top: 28px;
-    margin-left: 40px;
-    font-weight: auto;
+.name-header a {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 28px;
+  margin-left: 40px;
+  font-weight: auto;
 }
-nav{
-    margin-top: 28px;
-    margin-right: 40px;
+nav {
+  margin-top: 28px;
+  margin-right: 40px;
 }
 
-main{
+main {
   display: flex;
   margin-top: 80px;
   justify-content: center;
 }
 
-main img{
+main img {
   width: 500px;
   border-radius: 50%;
   border: #222222 solid 20px;
   filter: brightness(75%);
-
 }
-main img:hover{
+main img:hover {
   transform: translateY(-4px);
 }
 
-.name-header img{
+.name-header img {
   width: 85px;
 }
 
 .links a {
-    font-size: 14px;
-    color: #9c9c9c;
-    text-decoration: none;
-    margin-right: 30px;
-    font-weight: lighter;
-    
-
+  font-size: 14px;
+  color: #9c9c9c;
+  text-decoration: none;
+  margin-right: 30px;
+  font-weight: lighter;
 }
 .text-hero {
-    max-width: 400px;
-    margin-top: 100px;
-    margin-left: 160px;
-    margin-right: 220px;
+  max-width: 400px;
+  margin-top: 100px;
+  margin-left: 160px;
+  margin-right: 220px;
 }
 
-.text-hero  h3{
-    color: #fff;
-    font-size: 40px;
-    margin-bottom: 10px;
-
+.text-hero h3 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 10px;
 }
-.text-hero  p{
-    color: #535353;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-top: 20px;
-    max-width: 600px;
+.text-hero p {
+  color: #535353;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  max-width: 600px;
 }
 
-.text-hero:hover{
+.text-hero:hover {
   transform: translateY(-4px);
 }
 
-.btn-download{
+.btn-download {
   background-color: #26a65b;
   width: 145px;
   display: flex;
   justify-content: center;
   padding: 12px 27px;
-
 }
-.btn-learn{
+.btn-learn {
   background-color: transparent;
   width: 145px;
   display: flex;
   justify-content: center;
   padding: 12px 27px;
   border: solid #fff 1px;
-  
 }
 
 .btn-learn:hover {
   background-color: #26a65b;
   transform: translateY(-4px);
   border: solid #26a65b 1px;
-
 }
 
 .btn-download:hover {
@@ -113,13 +104,12 @@ main img:hover{
   transform: translateY(-4px);
 }
 
-
 .btn-hero a {
   font-size: 14px;
   color: #fff;
   text-align: center;
   width: 140px;
-} 
+}
 .btn-hero {
   display: flex;
   gap: 10px;
@@ -164,10 +154,9 @@ main img:hover{
   justify-content: center;
   gap: 80px;
   margin-top: 40px;
-
 }
 
-.card-informations{
+.card-informations {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -191,29 +180,28 @@ main img:hover{
   color: #535353;
   font-size: 16px;
   text-align: center;
-
 }
 
- .card-informations img{
+.card-informations img {
   width: 12px;
   height: 12px;
- }
+}
 
- .tittle-what-do {
+.tittle-what-do {
   font-size: 40px;
   text-align: center;
   color: #fff;
   margin-top: 100px;
 }
 
-.cards-do{
+.cards-do {
   display: flex;
   gap: 60px;
   justify-content: center;
   margin-top: 100px;
 }
 
-.generic-cards{
+.generic-cards {
   font-size: 30px;
   color: #53535353;
   width: 350px;
@@ -222,27 +210,24 @@ main img:hover{
   padding-bottom: 36px;
   background-color: #212121;
   border-bottom: solid #26a65b 5px;
-
 }
 
-.generic-cards > img{
+.generic-cards > img {
   margin-bottom: 30px;
 }
 
-.tittle-skills{
+.tittle-skills {
   font-size: 40px;
   text-align: center;
   color: #fff;
   margin-top: 100px;
-
-
 }
-.cards-skill{
+.cards-skill {
   display: flex;
   justify-content: center;
 }
 
-.card-skills{
+.card-skills {
   max-width: 90%;
   background-color: #212121;
   display: flex;
@@ -253,14 +238,13 @@ main img:hover{
   padding-bottom: 60px;
   padding-left: 120px;
   padding-right: 120px;
-
 }
 
-.percentage h2{
+.percentage h2 {
   font-size: 60px;
   color: #53535353;
 }
-.percentage p{
+.percentage p {
   font-size: 20px;
   color: #26a65b;
   display: flex;
@@ -268,14 +252,14 @@ main img:hover{
   font-weight: 600;
 }
 
-.generic-cards:hover{
+.generic-cards:hover {
   transform: translateY(-2px);
 }
 
-.card-skills:hover{
+.card-skills:hover {
   transform: translateY(-2px);
 }
-.card-informations:hover{
+.card-informations:hover {
   transform: translateY(-2px);
 }
 
@@ -322,7 +306,7 @@ form {
   padding: 8px 0;
   font-size: 16px;
   outline: none;
-  transition: border-color .3s;
+  transition: border-color 0.3s;
 }
 
 .input-group textarea {
@@ -353,7 +337,7 @@ button {
   color: #fff;
   font-size: 16px;
   cursor: pointer;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 
 button:hover {
@@ -363,389 +347,172 @@ button:hover {
   transform: translateY(-2px);
 }
 
-
-footer{
+footer {
   margin-top: 120px;
   margin-bottom: 80px;
 }
-.links-footer{
+.links-footer {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.links-footer> img {
+.links-footer > img {
   width: 16px;
   height: 16px;
 }
 
-.direitos{
+.direitos {
   margin-top: 30px;
   display: flex;
   justify-content: center;
   font-size: 12px;
-    color: #53535353;
+  color: #53535353;
 }
 
-  /* ===== RESPONSIVO PARA TABLETS ===== */
-  @media (max-width: 1024px) {
-    header {
-      padding: 20px 40px;
-    }
-
-    .name-header a {
-      margin-left: 0;
-    }
-
-    nav {
-      margin-right: 0;
-    }
-
-    main {
-      flex-direction: column;
-      align-items: center;
-      margin-top: 40px;
-    }
-
-    main img {
-      width: 350px;
-      border: #222222 solid 15px;
-      order: 2;
-      margin-top: 40px;
-    }
-
-    .text-hero {
-      max-width: 100%;
-      margin: 0 20px;
-      text-align: center;
-      order: 1;
-    }
-
-    .text-hero h3 {
-      font-size: 32px;
-    }
-
-    .card-informations-about {
-      gap: 40px;
-      flex-wrap: wrap;
-      padding: 0 20px;
-    }
-
-    .cards-do {
-      gap: 30px;
-      flex-wrap: wrap;
-      padding: 0 20px;
-    }
-
-    .generic-cards {
-      width: 100%;
-      max-width: 300px;
-    }
-
-    .card-skills {
-      gap: 50px;
-      padding-left: 40px;
-      padding-right: 40px;
-      flex-wrap: wrap;
-    }
-
-    .row {
-      gap: 20px;
-    }
-
-    #contact {
-      padding: 0 20px;
-    }
+/* Celular*/
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 15px 20px;
+    margin-top: 20px;
+    gap: 20px;
   }
 
-  /* ===== RESPONSIVO PARA SMARTPHONES ===== */
-  @media (max-width: 768px) {
-    header {
-      flex-direction: column;
-      padding: 15px 20px;
-      margin-top: 20px;
-      gap: 20px;
-    }
-
-    .name-header img {
-      width: 60px;
-    }
-
-    .links {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      text-align: center;
-    }
-
-    .links a {
-      margin-right: 0;
-      font-size: 12px;
-    }
-
-    main {
-      margin-top: 30px;
-    }
-
-    main img {
-      width: 250px;
-      border: #222222 solid 10px;
-    }
-
-    .text-hero {
-      margin: 0 15px;
-      margin-top: 40px;
-    }
-
-    .text-hero h3 {
-      font-size: 24px;
-    }
-
-    .text-hero p {
-      font-size: 14px;
-    }
-
-    .btn-hero {
-      flex-direction: column;
-      gap: 10px;
-      align-items: center;
-    }
-
-    .btn-download,
-    .btn-learn {
-      width: 100%;
-      max-width: 200px;
-    }
-
-    .tittle-about,
-    .tittle-what-do,
-    .tittle-skills {
-      font-size: 28px;
-      margin-top: 60px;
-    }
-
-    .text-about {
-      padding: 0 20px;
-      font-size: 14px;
-    }
-
-    .card-informations-about {
-      gap: 20px;
-      padding: 0 20px;
-    }
-
-    .card-informations {
-      margin-top: 30px;
-    }
-
-    .cards-do {
-      gap: 20px;
-      padding: 0 20px;
-      margin-top: 50px;
-    }
-
-    .generic-cards {
-      width: 100%;
-      max-width: 280px;
-      padding-left: 30px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      border-bottom: solid #26a65b 3px;
-    }
-
-    .generic-cards h3 {
-      font-size: 18px;
-    }
-
-    .card-skills {
-      gap: 30px;
-      padding: 40px 20px;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .percentage h2 {
-      font-size: 40px;
-    }
-
-    .percentage p {
-      font-size: 14px;
-    }
-
-    .row {
-      flex-direction: column;
-      gap: 0;
-    }
-
-    .input-group {
-      width: 100%;
-    }
-
-    #contact {
-      margin: 60px auto;
-      padding: 0 20px;
-    }
-
-    #contact > h2 {
-      font-size: 28px;
-      margin-bottom: 40px;
-    }
-
-    .full {
-      margin-top: 20px;
-    }
-
-    footer {
-      margin-top: 80px;
-      margin-bottom: 40px;
-    }
-
-    .direitos {
-      font-size: 10px;
-    }
+  .name-header img {
+    width: 60px;
   }
 
-  /* ===== RESPONSIVO PARA SMARTPHONES PEQUENOS ===== */
-  @media (max-width: 480px) {
-    header {
-      padding: 10px 15px;
-      margin-top: 10px;
-    }
-
-    .name-header img {
-      width: 50px;
-    }
-
-    .links a {
-      font-size: 10px;
-    }
-
-    main {
-      margin-top: 20px;
-    }
-
-    main img {
-      width: 200px;
-      border: #222222 solid 8px;
-    }
-
-    .text-hero {
-      margin: 0 10px;
-      margin-top: 30px;
-    }
-
-    .text-hero h3 {
-      font-size: 18px;
-    }
-
-    .text-hero p {
-      font-size: 12px;
-    }
-
-    .btn-hero a {
-      font-size: 12px;
-      width: 100%;
-    }
-
-    .btn-download,
-    .btn-learn {
-      padding: 10px 15px;
-      width: 100%;
-    }
-
-    .tittle-about,
-    .tittle-what-do,
-    .tittle-skills {
-      font-size: 20px;
-      margin-top: 40px;
-    }
-
-    .text-about {
-      padding: 0 15px;
-      font-size: 12px;
-    }
-
-    .card-informations-about {
-      gap: 15px;
-      padding: 0 15px;
-    }
-
-    .circle {
-      width: 50px;
-      height: 50px;
-    }
-
-    .card-informations h4 {
-      font-size: 14px;
-    }
-
-    .card-informations p,
-    .card-informations a {
-      font-size: 12px;
-    }
-
-    .cards-do {
-      gap: 15px;
-      padding: 0 15px;
-      margin-top: 30px;
-    }
-
-    .generic-cards {
-      width: 100%;
-      max-width: 100%;
-      padding-left: 20px;
-      padding-top: 15px;
-      padding-bottom: 15px;
-    }
-
-    .generic-cards h3 {
-      font-size: 14px;
-    }
-
-    .generic-cards > img {
-      margin-bottom: 15px;
-      width: 40px;
-    }
-
-    .card-skills {
-      gap: 20px;
-      padding: 30px 15px;
-    }
-
-    .percentage h2 {
-      font-size: 28px;
-    }
-
-    .percentage p {
-      font-size: 12px;
-    }
-
-    #contact {
-      margin: 40px 15px;
-    }
-
-    #contact > h2 {
-      font-size: 20px;
-      margin-bottom: 30px;
-    }
-
-    .input-group label {
-      font-size: 12px;
-    }
-
-    .input-group input,
-    .input-group textarea {
-      font-size: 14px;
-    }
-
-    button {
-      padding: 10px 20px;
-      font-size: 14px;
-    }
-
-    footer {
-      margin-top: 60px;
-      margin-bottom: 30px;
-    }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
   }
 
+  .links a {
+    margin-right: 0;
+    font-size: 12px;
+  }
+
+  main {
+    margin-top: 30px;
+  }
+
+  main img {
+    width: 250px;
+    border: #222222 solid 10px;
+  }
+
+  .text-hero {
+    margin: 0 15px;
+    margin-top: 40px;
+  }
+
+  .text-hero h3 {
+    font-size: 24px;
+  }
+
+  .text-hero p {
+    font-size: 14px;
+  }
+
+  .btn-hero {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .btn-download,
+  .btn-learn {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .tittle-about,
+  .tittle-what-do,
+  .tittle-skills {
+    font-size: 28px;
+    margin-top: 60px;
+  }
+
+  .text-about {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+
+  .card-informations-about {
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .card-informations {
+    margin-top: 30px;
+  }
+
+  .cards-do {
+    gap: 20px;
+    padding: 0 20px;
+    margin-top: 50px;
+  }
+
+  .generic-cards {
+    width: 100%;
+    max-width: 280px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid #26a65b 3px;
+  }
+
+  .generic-cards h3 {
+    font-size: 18px;
+  }
+
+  .card-skills {
+    gap: 30px;
+    padding: 40px 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .percentage h2 {
+    font-size: 40px;
+  }
+
+  .percentage p {
+    font-size: 14px;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  #contact {
+    margin: 60px auto;
+    padding: 0 20px;
+  }
+
+  #contact > h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+
+  .full {
+    margin-top: 20px;
+  }
+
+  footer {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  .direitos {
+    font-size: 10px;
+  }
+}
